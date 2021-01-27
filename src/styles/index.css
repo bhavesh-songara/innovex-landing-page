@@ -152,7 +152,15 @@ body {
     font-weight: 700;
     font-size: 40px;
     color: #333;
- 
+}
+
+.why-us-text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #333;
+    border-bottom: 1px solid #ff5300;
+    width: 500px;
+    padding-bottom: 10px;
 }
 
 .why-us-text span {
@@ -162,4 +170,46 @@ body {
 .why-us-text p {
     margin-top: 15px;
     line-height: 1.8;
+}
+
+.our-process {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-height: 550px;
+}
+
+.our-process-image {
+    background-image: url(../images/image4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    height: auto;
+}
+
+.our-process-text {
+    background-color: rgba(12,113,195,0.09) !important;
+    padding: 60px 100px;
+}
+
+.our-process-text h1 {
+    font-size: 40px;
+    font-weight: 700;
+    width: 300px;
+    border-bottom: 1px solid #ff5300;
+    padding-bottom: 10px;
+}
+
+.our-process-list {
+    padding-left: 40px;
+}
+
+.our-process-list h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.our-process-list p {
+    font-size: 17px;
+    margin-top: 5px;
 }
