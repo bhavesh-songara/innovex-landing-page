@@ -50,6 +50,12 @@
 
 .expert-image > img {
     border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.expert-image > img:hover {
+    transform: scale(1.1);
 }
 
 .expert-text {
